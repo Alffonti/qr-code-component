@@ -3,8 +3,6 @@ import { QRCode } from "./components/QRCode";
 import { Attribution } from "./components/Attribution";
 import image from "./assets/images/image-qr-code.png";
 
-
-
 function App() {
   return (
     <main className="main">

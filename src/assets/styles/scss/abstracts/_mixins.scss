@@ -32,6 +32,14 @@
 }
 
 /// Breakpoints
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small' : (min-width: 767px),
+  'medium' : (min-width: 992px),
+  'large' : (min-width: 1200px)
+);
 
 @mixin respond-to($name) {
 
